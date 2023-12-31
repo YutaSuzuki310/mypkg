@@ -12,7 +12,7 @@
 端末1 $ ros2 run mypkg talker
 端末2 $ ros2 run mypkg listener
 ```
-と入力するとtalker側にlistener側に以下の実行結果が出力されます。
+と入力するとlistener側に以下の実行結果が出力されます。
 
 ```
 [INFO] [1703995797.728886212] [listener]: Listen: 0
@@ -54,7 +54,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 
 # Requirement
 * Python(3.7～3.10)
-* ROS2
+* ROS2(Foxy Fitzroy)
 
 # Installation
 * git clone https://github.com/YutaSuzuki310/robosys2023_2.git
