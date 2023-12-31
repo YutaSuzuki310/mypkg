@@ -1,8 +1,11 @@
 # robosys2023_2
 ロボットシステム学の課題2
+ROS2を利用して通信を行うためのリポジトリ
 * ![test](https://github.com/yutasuzuki310/robosys2023_2/actions/workflows/test.yml/badge.svg)
 
 # Usage
+
+* 'talker'が1ずつ数字が増えるノード(プログラム)を実行し'countup'を流路として実行結果がメッセージとして送られます。次に'countup'を通して'listener'がメッセージを受信してターミナルに表示されます。
 
 * talker listener の使い方
 
@@ -30,7 +33,7 @@
 
 * launch の使い方
 
-1つの端末を利用します。launchファイルでtalkerとlistenerの両方を立ち上げることができます。
+1つの端末を利用します。launchファイルでtalkerとlistenerの両方を同時に立ち上げることができます。
 
 ```
 $ ros2 launch mypkg talk_listen.launch.py
