@@ -1,6 +1,6 @@
 # robosys2023_2
-ロボットシステム学の課題2
-ROS2を利用して通信を行うためのリポジトリ
+* ロボットシステム学の課題2
+* ROS2を利用して通信を行うためのリポジトリ
 * ![test](https://github.com/yutasuzuki310/robosys2023_2/actions/workflows/test.yml/badge.svg)
 
 # Usage
