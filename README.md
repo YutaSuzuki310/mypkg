@@ -32,7 +32,7 @@
 [INFO] [1703995801.224298555] [listener]: Listen: 7
 ```
 
-無限ループなので止めたいときは {[ctrl] + C} で停止します。
+無限ループなので止めたいときは '[ctrl] + C' で停止します。
 
 
 * launch の使い方
@@ -64,7 +64,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 * ROS2(Foxy Fitzroy)
 
 # Installation
-* git clone https://github.com/YutaSuzuki310/robosys2023_2.git
+* git clone https://github.com/YutaSuzuki310/mypkg.git
 
 # Test environment
 * Ubuntu 20.04
