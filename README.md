@@ -6,9 +6,11 @@
 
 # Usage
 
-* 'talker'を実行するとノード内の変数nが1ずつ増え、その都度トピック'countup'に実行結果がメッセージとして送られます。次に'countup'から'listener'がメッセージを受信してターミナルに表示されます。またメッセージは16bit型です。
+* talker.py : 実行すると変数nが1ずつ増え、その都度トピック'countup'に実行結果がメッセージとして送られます。
+* listener.py : 'countup'からメッセージを受信してターミナルに表示します。
+* talk_listen.launch.py : 
+* トピック'countup' :  talkerからのメッセージを格納しlistenerによって送り出されます。
 
-* トピック'countup'の説明 : talkerからのメッセージを格納しlistenerによって送り出されます。
 
 
 * talker listener の使い方
