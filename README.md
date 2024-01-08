@@ -16,13 +16,27 @@
 
 ## Installation
 
-* ディレクトリを作成します。 `$ mkdir -p ros2_ws/src`
-* srcファイルに移動します。 ` $ cd ~/ros2_ws/src/`
-* そこにリポジトリをクローンします。`git clone https://github.com/YutaSuzuki310/mypkg.git`
-* ros2_wsディレクトリに移動し、colcon buildします。 `$ cd ~/ros2_ws/` `$ colcon build`
+* ディレクトリを作成します。
+```
+$ mkdir -p ros2_ws/src
+```
+* srcファイルに移動します。
+```
+$ cd ~/ros2_ws/src/
+```
+* そこにリポジトリをクローンします。
+```
+git clone https://github.com/YutaSuzuki310/mypkg.git
+```
+* ros2_wsディレクトリに移動し、colcon buildします。
+```
+$ cd ~/ros2_ws/` `$ colcon build
+```
 * ~/.bashrcの末尾に以下の2行を追加してros2_ws下のパッケージを利用可能にします。
-　` source ~/ros2_ws/install/setup.bash`
-  ` source ~/ros2_ws/install/local_setup.bash `
+```
+source ~/ros2_ws/install/setup.bash
+source ~/ros2_ws/install/local_setup.bash
+```
 
 ## Usage
 
