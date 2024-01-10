@@ -21,11 +21,12 @@
 
 * talker listener の使い方（２つ端末を使用します）
 
+
 1つ目の端末でtalkerを実行します。
 ```bash
 端末1 $ ros2 run mypkg talker
 ```
-次に2つ目の端末でlistenerを実行します。
+2つ目の端末でlistenerを実行します。
 
 ```bash
 端末2 $ ros2 run mypkg listener
@@ -45,9 +46,11 @@
 無限ループなので止めたいときは `[ctrl] + C`で停止します。
 
 
+
 * launch の使い方
 
-1つの端末を利用します。launchファイルでtalkerとlistenerの両方を同時に立ち上げることができます。
+
+1つの端末を利用します。
 
 ```
 $ ros2 launch mypkg talk_listen.launch.py
