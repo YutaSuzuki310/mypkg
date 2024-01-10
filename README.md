@@ -19,7 +19,7 @@
 
 ## 使用方法
 
-* talker listener の使い方（２つ端末を使用します）
+* talker.py listener.py の使い方（２つ端末を使用します）
 
 
 1つ目の端末でtalkerを実行します。
@@ -47,7 +47,7 @@
 
 
 
-* launch の使い方
+* talk_listen.launch.py の使い方
 
 
 1つの端末を利用します。
