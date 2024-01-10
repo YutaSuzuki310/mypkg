@@ -1,7 +1,6 @@
 # mypkg
 
-* 2023年度ロボットシステム学の課題2の提出用リポジトリです。
-* ROS2を利用したパッケージです。
+* 2023年度ロボットシステム学課題2のリポジトリです。ROS2を使用します。
 
 [![test](https://github.com/yutasuzuki310/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/yutasuzuki310/mypkg/actions/workflows/test.yml)
 
