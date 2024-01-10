@@ -7,7 +7,7 @@
 
 ## ノード
 
-* talker.py : 変数nが０から1ずつ増え、その都度トピックを通じて送信されます。
+* talker.py : 変数nが０から1ずつ増え、トピックにメッセージとして送信します。
 * listener.py : トピックからメッセージを受信し標準出力します。
 * talk_listen.launch.py : 実行するとtalker.pyとlistener.pyを同時に立ち上げることができます。
 
